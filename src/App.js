@@ -1,15 +1,22 @@
-import './App.css';
-import React, {Component} from 'react';
-import 'tachyons';
+// src/App.js
 
-class App extends Component {
-  render() { 
-    return (
-      <div className="tc">
-        <h1>Hello {this.props.name}</h1>
-      </div>
-    );
-  }
+import React from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
+
+export default function App() {
+  return (
+    <main>
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Testimonials />
+      <Contact />
+    </main>
+  );
 }
-
-export default App;

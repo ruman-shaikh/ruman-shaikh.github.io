@@ -6,6 +6,9 @@ import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Socials from './components/Socials';
+import WorkExperience from './components/WorkExperience';
+import Education from './components/Education';
 // import Testimonials from "./components/Testimonials";
 
 export default function App() {
@@ -14,7 +17,10 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
+      <WorkExperience />
+      <Education />
       <Skills />
+      <Socials />
       {/* <Testimonials />
       <Contact /> */}
     </main>

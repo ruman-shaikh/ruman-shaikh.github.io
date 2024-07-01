@@ -19,8 +19,20 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
+          <a href="#work-experience" className="mr-5 hover:text-white">
+            Work Experience
+          </a>
+          <a href="#education" className="mr-5 hover:text-white">
+            Education
+          </a>
+          {/* <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
+          </a> */}
+          <a href="#socials" className="mr-5 hover:text-white">
+            Socials
+          </a>
+          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer" className="mr-5 hover:text-white">
+            Blog
           </a>
         </nav>
         <a

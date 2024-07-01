@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ProjectCard from './Card';
-import MultiActionAreaCard from './Cards2'
-import reportWebVitals from './reportWebVitals';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import App from './App';
 
-ReactDOM.render(<MultiActionAreaCard />, document.getElementById('root'));
-
-reportWebVitals();
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

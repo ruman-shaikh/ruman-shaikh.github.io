@@ -1,11 +1,15 @@
 import React from "react";
 import { workExperience } from "../data";
+import { BriefcaseIcon } from "@heroicons/react/solid";
 
 export default function WorkExperience() {
   return (
     <section id="work-experience" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center">
         <div className="flex flex-col w-full mb-20">
+        <div className="text-center">
+          <BriefcaseIcon className="w-10 inline-block mb-4" />
+        </div>
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Work Experience
           </h1>
@@ -15,7 +19,7 @@ export default function WorkExperience() {
             possimus est.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap -m-4 justify-center">
           {workExperience.map((experience, idx) => (
             <div key={idx} className="p-4 lg:w-1/2">
               <div className="h-full bg-gray-800 p-8 rounded">

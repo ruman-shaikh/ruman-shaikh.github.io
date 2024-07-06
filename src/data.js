@@ -57,7 +57,7 @@ export const projects = [
       subtitle: "Python, SciKit Learn",
       description:
         "Built a data pipeline for ECoG data analysis, achieving a 49.3% R-square, 5ms latency reduction, and identifying correlations with specific Brodmann areas.",
-      image: "favicon.ico",
+      image: "ecog_pred.jpg",
       link: "https://google.com",
     },
     {
@@ -65,7 +65,7 @@ export const projects = [
       subtitle: "Python, PyTorch, HuggingFace Transformers",
       description:
         "Developed an advanced NLI model with ELECTRA, achieving 88.24% accuracy, improved dataset artifact correction, created an error analysis framework, and enhanced model generalizability through diverse dataset training.",
-      image: "favicon.ico",
+      image: "nli.jpg",
       link: "https://google.com",
     },
     {
@@ -73,7 +73,7 @@ export const projects = [
       subtitle: "Python, PyTorch",
       description:
         "Developed an autonomous agent using different reinforcement learning techniques to play ice hockey in SuperTuxKart, achieving over 80% win rate.",
-      image: "favicon.ico",
+      image: "gokart_agent.jpg",
       link: "https://google.com",
     },
     {
@@ -81,7 +81,7 @@ export const projects = [
       subtitle: "Python, PyTorch, HuggingFace Transformers",
       description:
         "Executed sentiment analysis on Sentiment140 using SBERT and PCA, trained a logistic regression model, identified significant predictors, and noted classification failures due to Twitter-specific slang.",
-      image: "favicon.ico",
+      image: "tweet_sentiment.jpg",
       link: "https://github.com/ruman-shaikh/NLP_Project_Grp_1",
     }
   ];

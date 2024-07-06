@@ -9,8 +9,8 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Ruman.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
+            <br className="hidden lg:inline-block" />
+            <span className="block mt-2">I love to build amazing apps.</span>
           </h1>
           <p className="mb-8 leading-relaxed">
           As an AI Engineer at IBM's WatsonX Client Engineering team, I specialize in fine-tuning, aligning, and deploying large language models (LLMs) using advanced prompt engineering techniques. I leverage the cutting-edge watsonx.ai platform to ensure the seamless integration and performance of these models in various client applications. I am deeply passionate about machine learning research and applying them to solve real-world challenges and creating a positive impact.

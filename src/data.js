@@ -2,25 +2,14 @@
 
 export const education = [
   {
-    school: "University of Texas at Austin",
-    degree: "Master of Science",
-    field: "Computer Science",
-    startDate: "August 2024",
-    endDate: "Expected May 2026",
-    description: [
-      "Specialization in Machine Learning and Artificial Intelligence",
-      "Relevant coursework: Advanced Algorithms, Statistical Learning, Deep Learning"
-    ]
-  },
-  {
     school: "New Horizon College of Engineering",
     degree: "Bachelor of Engineering",
     field: "Computer Science",
-    startDate: "August 2018",
-    endDate: "May 2022",
+    startDate: "August 2017",
+    endDate: "May 2021",
     description: [
-      "Graduated with First Class Honors",
-      "Capstone Project: Development of an automated system using AI to improve user interaction"
+      "Graduated with CGPA of 9.09 out of 10",
+      "Final Project: Development of a blockchain based system for energy trading in smart grids",
     ]
   }
 ];
@@ -30,41 +19,32 @@ export const workExperience = [
     company: "IBM",
     roles: [
       {
-        title: "Senior Software Engineer",
-        startDate: "March 2021",
+        title: "AI Engineer",
+        startDate: "October 2023",
         endDate: "Present",
         description: [
-          "Lead a team of 10 in developing an innovative cloud-based solution.",
-          "Increased system efficiency by 40% through rigorous optimization.",
-          "Implemented CI/CD pipelines reducing deployment failures by 98%.",
-          "Presented at 4+ international tech conferences annually."
-        ]
-      },
-      {
-        title: "Software Engineer",
-        startDate: "January 2019",
-        endDate: "February 2021",
-        description: [
-          "Developed multiple high-traffic APIs using Node.js and Express.",
-          "Collaborated with cross-functional teams to define specs and deliverables.",
-          "Optimized existing algorithms, resulting in a 30% decrease in processing times.",
-          "Authored internal training materials used company-wide."
+          "AI Solution Development: Developed and deployed AI solutions using the WatsonX platform to address specific client needs and challenges.",
+          "Foundation Models Expertise: Focused on leveraging foundation models, including large language models, to create AI solution.",
+          "Client Collaboration: Worked closely with clients to understand business needs, ensuring the solutions provided were tailored and effective.",
+          "POC Development: Created and tested Proof of Concept (POC) to validate AI solutions and confirm alignment with client expectations.",
+          "Industry Awareness: Stayed updated with the latest AI industry trends, especially in foundation and large language models.",
+          "Technology Stack: Proficient in WatsonX, Python, TensorFlow, and PyTorch to architect and implement ML solutions."
         ]
       }
     ]
   },
   {
-    company: "Google",
+    company: "Oracle Health",
     roles: [
       {
-        title: "Software Developer Intern",
-        startDate: "June 2018",
-        endDate: "December 2018",
+        title: "Software Engineer",
+        startDate: "June 2021",
+        endDate: "August 2023",
         description: [
-          "Designed and implemented a Python service for automating data retrieval.",
-          "Worked closely with senior developers to streamline content aggregation.",
-          "Contributed code to major projects, including feature enhancements and bug fixes.",
-          "Received commendations for teamwork and innovation."
+          "Healthcare Data Analysis: Developed and tested data pipelines to analyse patient health records, leading to significant improvements in healthcare provider evaluations' accuracy and efficiency.",
+          "Performance Optimization: Streamlined query design within the pipeline, achieving a 90% reduction in processing time (from several days to less than a day) and enhancing overall system performance.",
+          "ETL Tools and Data Efficiency: Leveraged Oracle Cerner's internal ETL tools and popular platforms like Apache Airflow and Apache Spark, accelerating client data processing and enabling early report submission (one month ahead of schedule).",
+          "Software Lifecycle Management and Tech Proficiency: Skilfully utilized Git, GitHub, Crucible, and Jira for software development lifecycle management. Showcased expertise in Python, Oracle"
         ]
       }
     ]
@@ -78,7 +58,7 @@ export const projects = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "favicon.ico",
-      link: "https://reactbootcamp.com",
+      link: "https://google.com",
     },
     {
       title: "React Tracks",
@@ -86,7 +66,7 @@ export const projects = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "favicon.ico",
-      link: "https://reedbarger.com",
+      link: "https://google.com",
     },
     {
       title: "DevChat",
@@ -94,7 +74,7 @@ export const projects = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "favicon.ico",
-      link: "https://jsbootcamp.com",
+      link: "https://google.com",
     },
     {
       title: "Epic Todo App",
@@ -102,21 +82,24 @@ export const projects = [
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
       image: "favicon.ico",
-      link: "https://pythonbootcamp.com",
+      link: "https://google.com",
     },
   ];
 
 // Define your skills array here
 export const skills = [
-  "JavaScript",
-  "React",
-  "Node.js",
+  "C/C++",
   "Python",
-  "HTML",
-  "CSS",
-  "Git",
-  "MongoDB",
+  "Java",
+  "PyTorch",
+  "TensorFlow",
+  "SQL",
+  "PySpark",
+  "Hadoop",
+  "Cuda",
   "Docker",
   "AWS",
-  "GraphQL"
+  "IBM Cloud",
+  "Git",
+  "Linux"
 ];

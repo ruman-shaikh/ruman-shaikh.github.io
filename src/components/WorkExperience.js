@@ -13,11 +13,11 @@ export default function WorkExperience() {
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Work Experience
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
             ipsa delectus eum quo voluptas aspernatur accusantium distinctio
             possimus est.
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-wrap -m-4 justify-center">
           {workExperience.map((experience, idx) => (

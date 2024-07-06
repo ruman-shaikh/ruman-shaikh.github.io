@@ -58,7 +58,7 @@ export const projects = [
       description:
         "Built a data pipeline for ECoG data analysis, achieving a 49.3% R-square, 5ms latency reduction, and identifying correlations with specific Brodmann areas.",
       image: "ecog_pred.jpg",
-      link: "https://google.com",
+      link: "https://drive.google.com/file/d/1ht7O0FOkSPBX92Szei4XSx2vHEIV7eeS/view?usp=sharing",
     },
     {
       title: "Analyzing Dataset Artifacts using ELECTRA",
